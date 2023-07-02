@@ -28,7 +28,6 @@ class Car{
 
 
 
-
 class Main {
   public static void main(String[] args) {
 
@@ -39,4 +38,4 @@ class Main {
     System.out.println("C3 Wheels: "+ c3.wheels);
 
   }
-}
+} 
