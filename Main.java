@@ -9,6 +9,7 @@ class Car{
   }
   public void breake(){
     //method
+    System.out.println(wheels);
   }
   public void start(){
     //method
@@ -24,7 +25,6 @@ class Main {
 
     Car c1 = new Car(4,4,"car1");
     Car c2 = new Car(5,3,"car2");
-    
 
   }
 }
