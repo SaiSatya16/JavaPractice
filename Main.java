@@ -28,6 +28,41 @@ class Car{
 
 
 
+class employee{
+  private String name;
+  private int empid;
+  public void setname(String n){ // mutator
+    name = n;
+  }
+  public void setempid(int eid){
+    empid = eid;
+  }
+  public String getname(){ //accessor
+    return name;
+  }
+  public int getempid(){
+    return empid;
+  }
+  public void details(){
+    System.out.println("name:"+name);
+    System.out.println("empid:"+empid);
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Main {
   public static void main(String[] args) {
 
@@ -36,6 +71,13 @@ class Main {
     Car c3 = new Car(c1); //copying values from c1
     System.out.println("c1 Wheels: "+ c1.wheels);
     System.out.println("C3 Wheels: "+ c3.wheels);
+
+    employee obj1 = new employee();
+    obj1.setempid(123);
+    obj1.setname("abc");
+    obj1.details();
+    System.out.println(obj1.getname());
+    System.out.println(obj1.getempid());
 
   }
 } 
